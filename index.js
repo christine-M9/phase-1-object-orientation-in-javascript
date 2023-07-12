@@ -18,15 +18,15 @@ class Person {
     }
   }
   
-  let christine = new Person('Christine', 24);
+  let christine = new Person('Christine', 23);
   
   christine.sayHello();
   // => Hello, my name is Christine.
   christine.sayAge();
-  // => I am 24 years old.
+  // => I am 23 years old.
   christine.haveBirthday();
   // => It's my birthday.
   christine.sayAge();
-  // => I am 24 years old.
+  // => I am 23 years old.
   christine;
-  // => Person { name: 'Christine', age: 24 }
+  // => Person { name: 'Christine', age: 23 }
